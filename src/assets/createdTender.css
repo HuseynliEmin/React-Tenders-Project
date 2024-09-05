@@ -1,0 +1,92 @@
+.tenderTable {
+    margin: 20px 0;
+    border-radius: 100px !important;
+}
+
+.tenderHead th {
+    background: linear-gradient(#3160D0, #223567) !important;
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.tenderTable tbody tr td:first-child {
+    font-weight: 500;
+}
+
+.tenderTable tbody tr td:last-child {
+    font-weight: 600;
+    color: #223567;
+}
+
+.tenderTable button {
+    margin: 5px 0;
+}
+
+.deleteBtn {
+    height: 40px;
+    width: 70%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+    background: linear-gradient(-135deg, #80000e, #ff0015) ;
+}
+
+.deleteBtn:hover {
+
+    background: linear-gradient(135deg, #80000e, #ff0015) ;
+}
+
+.editBtn {
+    height: 40px;
+    width: 70%;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(-135deg, #008060, #4bd0a4) ;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.editBtn:hover {
+    background: linear-gradient(135deg, #008060, #4bd0a4) ;
+}
+
+.closeBtn {
+    height: 40px;
+    width: 70%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(135deg, #003580, #00a6ff);
+}
+
+.modalİnput input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.editButton {
+    margin-right: 5px !important;
+}
